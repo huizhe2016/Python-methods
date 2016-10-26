@@ -1,5 +1,5 @@
 ##Pytnon Code
-#### Python 2.7.11
+#### Python Version 2.7.11
 ***
 
 * ansible_api.py
@@ -13,6 +13,6 @@
 > Linux server port scanning。
 
 
-<pre><code>example: PortService('127.0.0.1')(建议使用多进程或多线程跑)</code></pre>
+<pre><code>example: PortService('192.168.1.2')(建议使用多进程或多线程跑)</code></pre>
 
 ## 分享一些自己的Python代码,望多提意见
