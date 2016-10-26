@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+#python version 2.7
+#ansible python api 2.0
 from ansible.parsing.dataloader import DataLoader
 from ansible.vars import VariableManager
 from ansible.inventory import Inventory
@@ -25,6 +27,7 @@ options = Options()
 #task_list = [['shell','pwd'],['command','ls']]
 #host_list = ['127.0.0.1','127.0.0.2']
 def AnsibleTask(task_list,host_list,user):
+    '''ansible python api 2.0'''
     loader = DataLoader()
     variable_manager = VariableManager()
     inventory = Inventory(loader=loader, variable_manager=variable_manager, host_list=host_list)
